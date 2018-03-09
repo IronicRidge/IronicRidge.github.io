@@ -1,0 +1,16 @@
+body{
+	background: #999;
+	font-family: arial;
+	color: white;
+}
+nav ul{
+	margin: 0;
+	display: inline;
+}
+nav ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}
