@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calculate Simp Interest </title>
+	<link rel="stylesheet" type="text/css" href="mainedit.css">
+	<!-- <script src ="Desktop/WCH Website/calculation.js"></script> -->
+	
+</head>
+<!-- <nav> -->
+<body>
+	<style>
+	body{
+	background-image: url("dollars.jpg");
+}
+</style>
+<main>
+	<header>
+       <h1>
+       	SimpleInterestCalculator
+       </h1>
+       	<ul>
+       		<li><a href="home.html">Home</a></li>
+       		<li><a href="calculate.html">TimeToSave</a></li>
+       		<li><a href="simpInter.html">SimpInterest</a></li>
+       		<li><a href="compInter.html">CompInterest</a></li>
+       		<li><a href="credits.html">Credits</a></li>
+       	</ul>
+       </header>
+<!-- 	</nav> -->
+	<form id="form">
+		<!-- <scipt>
+			{
+			pressed = false;
+			}
+		</scipt> -->
+
+		Initial Deposit Amount: <input type = "text" id="inde" name = "inde"/><br>
+		Percent Rate as a Decimal: <input type = "text" id="prate" name = "prate"/><br>
+		Time In Years: <input type = "text" id="ty" name = "ty"/><br>
+
+		<input type = "submit"  value = "Submit"/>
+		
+    </form>
+
+
+    <p> The result is: <br>
+
+    	<span id = "result"></span>
+
+    </p>
+</main>
+
+    <script src ="interestSimp.js"></script>
+</body>
+</html>

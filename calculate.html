@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calculate Time To Save </title>
+	<link rel="stylesheet" type="text/css" href="mainedit.css">
+	<!-- <script src ="Desktop/WCH Website/calculation.js"></script> -->
+	
+</head>
+<!-- <nav> -->
+<body>
+	<style>
+	body{
+	background-image: url("cash.jpg");
+}
+</style>
+<main>
+	<header>
+       <h1>
+       	TimeToPayCalculator
+       </h1>
+       	<ul>
+       		<li><a href="home.html">Home</a></li>
+       		<li><a href="calculate.html">TimeToSave</a></li>
+       		<li><a href="simpInter.html">SimpInterest</a></li>
+       		<li><a href="compInter.html">CompInterest</a></li>
+       		<li><a href="credits.html">Credits</a></li>
+       	</ul>
+       </header>
+<!-- 	</nav> -->
+	<form id="form">
+		<!-- <scipt>
+			{
+			pressed = false;
+			}
+		</scipt> -->
+
+		Monthly Income w/ Taxes Subtracted: <input type = "text" id="fname" name = "fname"/><br>
+		Living Costs: <input type = "text" id="lname" name = "lname"/><br>
+		Price of Object: <input type = "text" id="objcost" name = "objcost"/><br>
+		Your State's Sale's Tax Percentage as a Whole Number: <input type = "number" id="stax" name = "stax"/><br>
+
+		<input type = "submit"  value = "Submit"/>
+		
+    </form>
+
+
+    <p> The result is: <br>
+
+    	<span id = "result"></span>
+
+    </p>
+</main>
+
+    <script src ="calculation.js"></script>
+</body>
+</html>
+

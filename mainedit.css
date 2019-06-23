@@ -1,0 +1,38 @@
+ul {
+	padding: 0;
+}
+ul li{
+	color: red;
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 10px;
+}
+ul li a {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+main{
+	margin: auto;
+	width: 100%;
+	max-width: 300px;
+}
+body{
+color: white;
+font-family: system-ui, Arial, sans-serif;
+box-shadow: inset 0 0 30px 20px rgba(0,0,0,1.2);
+text-shadow: 0 2px 3px rgba(0,0,0,1.2);
+margin: 0;
+min-height: 100vh;
+padding: 30px;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+input {
+	display: block;
+}
